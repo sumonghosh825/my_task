@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'notepad.urls'
+ROOT_URLCONF = 'my_task.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'notepad.wsgi.application'
+WSGI_APPLICATION = 'my_task.wsgi.application'
 
 
 # Database

@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout,  get_user_model
 from django.contrib import messages
-from django.http import JsonResponse
 from django.contrib.auth.decorators import login_required
 from .models import UserProfile, Task
 from django.contrib.auth import authenticate
